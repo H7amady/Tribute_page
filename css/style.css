@@ -2,19 +2,20 @@ body {
     background: #ccc;
     margin: 0 20px;
     border-radius: 3px;
+    font-family: Montserrat, sans-serif;
+    line-height: 2;
 }
 #main {
     background: rgb(187, 182, 182);
     margin: 0 50px;
     border-radius: 3px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-header {
     text-align: center;
     color: rgb(39, 48, 45);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
+    line-height: 1;
 }
 .page-header h1 {
     font-size: 4em;
@@ -25,17 +26,21 @@ body {
 
 #content {
     background: white;
-    display: grid;
-    justify-content: center;
+    text-align: center;
     margin: 20px;
     padding: 20px;
 }
 #content img{
+  text-align: center;
     width: 25%;
     margin: 0 auto;
 }
 #content li {
     margin: 10px;
+    padding: 10;
+}
+#content p {
+  padding: 10px;
 }
 .learn_more {
     text-align: center;
